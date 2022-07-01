@@ -7,7 +7,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Simulacro de Laboratorio">
+    <meta name="description" content="Laboratorio">
     <meta name="keywords" content="HTML5, CSS3, Jquery">
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
