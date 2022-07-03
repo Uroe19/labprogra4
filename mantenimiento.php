@@ -2,10 +2,10 @@
     session_start();
     require_once("conexion.php");
 
-    $servidor = "localhost";
-    $usuario = "root";
-    $clave = "";
-    $base_datos = "bd_comentarios";
+    $servidor = "us-cdbr-east-06.cleardb.net";
+    $usuario = "bc76a3438ffbc2";
+    $clave = "32e5440d";
+    $base_datos = "heroku_6ba3215b3e4c68d";
     $conexion = new Conexion($servidor, $usuario, $clave, $base_datos);
 
     function obtenerComentario($conexion){
