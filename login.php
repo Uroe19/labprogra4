@@ -11,19 +11,19 @@
 </head>
 <body>
     <div id="div_baselogin">
-      <div class="div_usuario">
+      <div id="div_usulogin">
         <h2>Bienvenido</h2>
       </div>
-        <div class="div_img">
+      <div id="div_img">
           <img class="imglogo" src="rsc/Logo-UNA.png">
-        </div>
-        <form class="frm_login">
+      </div>
+      <form id="frm_login">
             <div>
                 <input class="label" id="txt_usuario" name="txt_usuario"  type="text" value="" title="Usuario" placeholder="Usuario">
                 <input class="label" id="txt_contrasena" name="txt_contrasena"  type="password" value="" title="Contraseña" placeholder="Contraseña"> 
                 <input class="button" id="btn_iniciarsesion" name="btn_iniciarSesion" type="button" title="Iniciar Sesion" value="Iniciar Sesion">
             </div>
-        </form>
+      </form>
     </div>
     <span id="msjbox" style="color: #F00;"></span>
 </body>
